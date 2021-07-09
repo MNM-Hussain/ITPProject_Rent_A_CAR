@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+.Total {
+	color: red;
+	font-size: 30px;
+	float: right;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.align_image {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	/* Location of the image */
+	background-image: URL(images/background-photo.jpg);
+	/* Background image is centered vertically and horizontally at all times */
+	background-position: center center;
+	/* Background image doesn't tile */
+	background-repeat: no-repeat;
+	/* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+	background-attachment: fixed;
+	/* This is what makes the background image rescale based
+     on the container's size */
+	background-size: cover;
+	/* Set a background color that will be displayed
+     while the background image is loading */
+	background-color: #464646;
+}
+
+input[type=text], select, textarea {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+input[type=Date], select, textarea {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+input[type=Number], select, textarea {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+hr.line {
+	border-top: 1px solid black;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #2edaff;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+
+input[type=submit]:hover {
+	background-color: #2f2f2f;
+}
+
+.container {
+	border-radius: 15px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+}

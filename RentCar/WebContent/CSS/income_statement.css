@@ -1,0 +1,45 @@
+#INCOME_STATEMENT {
+	width: 450px;
+	height: 350px;
+	border: 2px solid black;
+	margin-left: 90px;
+	margin-top: 50px;
+	background-color: white;
+}
+
+.vl1 {
+	border-left: 2px solid black;
+	height: 350px;
+	position: absolute;
+	left: 55%;
+	margin-left: -53px;
+	margin-top: -1px;
+}
+
+#date {
+	margin-left: 253px;
+	margin-top: 52px;
+	margin-bottom: -42px;
+}
+
+#expenses {
+	margin-left: 53px;
+}
+
+#h {
+	
+}
+
+#income {
+	margin-left: 53px;
+}
+
+#enxp {
+	margin-top: -293px;
+	margin-left: 273px;
+}
+
+#inc {
+	margin-left: 273px;
+	margin-top: 10px;
+}

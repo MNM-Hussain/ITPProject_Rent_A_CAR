@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+.caption-title-sub {
+	font-size: 14px;
+	font-weight: 700;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	color: #2edaff;
+}
+
+.card-title {
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.caption-text {
+	padding-left: 30px;
+	padding-right: 30px;
+}
